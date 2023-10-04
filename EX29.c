@@ -12,13 +12,13 @@ int main()
 
     i = a;
 
-    do
+    while (i >= 1)
     {
         if (a % i == 0)
         {
             printf("%d\n",i);
         }
         i--;
-    } while (i >= 1);
+    }
     return 0;
 }
