@@ -3,7 +3,7 @@
 
 int main()
 {
-    int i=1,a,b=0;
+    int i=1,a,b=1;
 
     system("clear");
     printf("Entrez 4 nombres :\n");
@@ -11,7 +11,7 @@ int main()
     do
     {
         scanf("%d",&a);
-        b=a+b;
+        b=a*b;
         i++;
     } while (i<=4);
     system("clear");
