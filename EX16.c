@@ -3,7 +3,7 @@
 
 int main()
 {
-    int i,a,b=0;
+    int i,a,b=1;
 
     system("clear");
     printf("Entrez 5 nombres :\n");
@@ -11,7 +11,7 @@ int main()
     for (i=1;i<=5;i++)
     {
         scanf("%d",&a);
-        b=a+b;
+        b=a*b;
     }
     system("clear");
     printf("%d\n",b);
