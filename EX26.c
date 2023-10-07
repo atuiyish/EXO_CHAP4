@@ -3,17 +3,26 @@
 
 int main()
 {
-    int i,a;
+    int i=2,n;
     system("clear");
     printf("Entrez un nombre :\n");
-    scanf("%d",&a);
+    scanf("%d",&n);
     system("clear");
-
-    while ((a % 2 != 0 && a != 1)|| a == 2 )
+    
+    if (n <= 1)
+        {
+            printf("%d n'est pas un nombre premier.\n", n);
+            return 0;
+        }
+    while (i < n)
     {
-        printf("%d est un nombre premier\n",a);
-        return 0;
+        if (n % i == 0)
+        {
+            printf("%d n'est pas un nombre premier.\n", n);
+            return 0;
+        }
+        i++;
     }
-    printf("%d n'est pas un nombre premier\n",a);
-    return 0;
+    printf("%d est un nombre premier.\n", n);
+    return 0;   
 }
