@@ -17,5 +17,6 @@ int main()
         scanf("%d",&nbr);
         system("clear");
     }
+    printf("%d (échec ou réussite)\n",nbr);
     return 0;
 }
