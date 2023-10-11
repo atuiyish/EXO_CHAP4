@@ -17,6 +17,12 @@ int main()
         scanf("%d",&nbr);
         system("clear");
     }
-    printf("%d (échec ou réussite)\n",nbr);
+    if (nbr < 5)
+    {
+        printf("%d : échec\n",nbr);
+        return 0;
+    }
+    else
+    printf("%d : réussite\n",nbr);
     return 0;
 }
