@@ -20,6 +20,12 @@ int main()
             system("clear");
         } while (nbr < 0 || nbr > 20);
     }
-    printf("%d (échec ou réussite)\n",nbr);
+    if (nbr < 10)
+    {
+        printf("%d : échec\n",nbr);
+        return 0;
+    }
+    else
+    printf("%d : réussite\n",nbr);
     return 0;
 }
