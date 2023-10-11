@@ -3,7 +3,7 @@
 
 int main()
 {
-    int a,b=0,i=1;
+    int a,b=0,i=0;
 
     do
     {
@@ -18,7 +18,7 @@ int main()
         }
         i++;
     } while (i < 10);
-    
+
     if (b)
     {
         printf("Le nombre 8 était présent dans la séquence\n");

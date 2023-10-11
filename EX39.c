@@ -3,7 +3,7 @@
 
 int main()
 {
-    int a,b=0,i=1;
+    int a,b=0,i=0;
 
     while (i < 7)
     {
