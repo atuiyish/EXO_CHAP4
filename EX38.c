@@ -5,7 +5,7 @@ int main()
 {
     int a,b=0,i;
 
-    for (i = 1; i < 5; i++)
+    for (i = 0; i < 5; i++)
     {
         system("clear");
         printf("Entrez 5 nombres entiers :\n");
