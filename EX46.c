@@ -19,7 +19,7 @@ int main()
             printf("Entrez une cote entre 0 et 20 :\n");
             scanf("%d",&nbr);
             
-            if (nbr > 0 && nbr < 20)
+            if (nbr >= 0 && nbr <= 20)
             {
                 system("clear");
                 a = nbr + b;
